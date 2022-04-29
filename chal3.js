@@ -8,15 +8,15 @@
 
 
 let fun= (x,y)=>{
-    fun("hello my name is somesh!","e")
+ 
     let count=0;
     for(let i=0; i < x.length; i++){
         if(x[i]==y){
             count+=1;
         }
          
-    return count
+    return count; 
 
 }
 }
-console.log(count)
+fun("hello my name is somesh!","e")
